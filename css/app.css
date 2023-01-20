@@ -5,8 +5,19 @@
 
 .col_mn {
     color: white;
-    border: 2px solid white;
+    border: 1px solid white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.hero {
+    background-color: #1ABC9C;
+    color: white;
+    padding: 40px;
+}
+
+.col_hero{
+    border: 1px dashed white;
+    padding: 10px;
 }
