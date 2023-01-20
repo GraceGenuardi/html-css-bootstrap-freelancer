@@ -63,4 +63,17 @@
     background-color:#CCB2A3 ;
 }
 
+/**ABOUT US RULES****/
+
+.about-us{
+    background-color: #1ABC9C;
+    color: white;
+    padding: 30px;
+}
+
+.bottom {
+    border: 1px dashed white;
+    text-align: center;
+}
+
 
