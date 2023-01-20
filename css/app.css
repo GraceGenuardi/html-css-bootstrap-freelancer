@@ -101,6 +101,23 @@
     border: 1px dashed #1ABC9C;
 }
 
+/****FOOTER RULES*****/
+.footer {
+    background-color:#3A546D ;
+    color: white;
+    padding-top: 20px;
+}
+
+.col_ft{
+    border: 1px dashed white;
+}
+
+.col_ftend {
+    background-color: #2C3E50;
+    text-align: center;
+    padding: 20px;
+}
+
 
 
 
