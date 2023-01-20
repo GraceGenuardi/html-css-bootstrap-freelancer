@@ -1,3 +1,8 @@
+
+
+.nav h3 {
+    text-transform: uppercase;
+}
 .row_st {
     background-color:#2C3E50 ;
     padding: 15px;
@@ -5,7 +10,6 @@
 
 .col_mn {
     color: white;
-    border: 1px solid white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
