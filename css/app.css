@@ -77,3 +77,30 @@
 }
 
 
+/*****CONTACT US RULES*****/
+
+.contact-us{
+    padding: 50px;
+    border: 1px dashed black;
+
+}
+
+.col_ct {
+    padding: 10px;
+}
+
+.col_ct::after {
+    background-color: rgb(175, 175, 175);
+    content: "";
+   display: block;
+   width: 900px;
+   height: 1px;
+}
+
+.bottom_g {
+    border: 1px dashed #1ABC9C;
+}
+
+
+
+
