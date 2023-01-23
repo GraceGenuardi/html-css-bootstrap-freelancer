@@ -4,54 +4,75 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Freelance</title>
-    <link rel="stylesheet" href="./css/app.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c5d4023dee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/app.css">
   </head>
   <body>
      <!-- INIZIO PRIMA GRIGLIA -->
 
+
+
+    <div class="main-header py-3">
+
      <div class="container menu">
-        <div class="row row_st justify-content-between">
-          <div class="col-3 col_mn">
+        <div class="row row-cols-auto justify-content-between align-items-center">
+          <div class="col-7 ">
             <h3>Start Bootstrap</h3>
           </div>
-          <div class="col-5 col_mn">
-            <p>Portafolio</p>
-            <p>About</p>
-            <p>Contact</p>
+
+          <div class="col-2  navbar">
+            <ul class="d-none d-md-flex mb-0 gap-3 list-unstyled">
+                <li>Portflio</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+
+            <a href="#" class="d-block d-md-none">
+            <i class="fa-solid fa-bars"></i>
+            </a> 
+
+
+
           </div>
+
+
         </div>
       </div>
 
+    </div>  
+
 
     <!-- SEZIONE HERO -->
-
-    <div class="container hero">
+<main>
+    <section class="hero py-5">
+    <div class="container">
         <div class="row justify-content-center">
-            <div class="col-10 col_hero">
-                <img src="" alt="bootstrap Freelance">
-                <p class="text-center">FOTO</p>
+
+
+            <div class="col-3 col_hero">
+                <img src="./img/avatar.svg" class="d-block" alt="bootstrap Freelance">
 
             </div>
         
 
         
-            <div class="col-10 col_hero">
-                <h1 class="text-center">Titolo</h1>
+            <div class="col-12 col_hero">
+                <h1 class="text-center display-3"> <strong>Start bootstrap</strong> </h1>
 
             </div>
         
 
         
-            <div class="col-10 col_hero">
-                <p class="text-center">Icona</p>
+            <div class="col-10 col_hero hero_icon text-center">
+                <p>Icona</p>
 
             </div>
         
 
         
             <div class="col-10 col_hero ">
-                <p class="text-center">Qualifiche</p>
+                <h3 class="text-center">graphic artist-web designer-illustrator</h3>
 
             </div>
 
@@ -59,143 +80,188 @@
 
 
     </div> 
-    
+    </section>
     
      <!-- SEZIONE PORTOFOLIO -->
-     <div class="container portfolio">
+
+     <section class="portfolio mb-3 mt-5">
+
+     <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h1 class="text-center display-5"><strong>Portfolio</strong> </h1>
+
+            </div>
         
 
-        <div class="row justify-content-center">
+        
             <div class="col-10">
-                <h2 class="text-center">Titolo Portfolio</h2>
                 <p class="text-center">Icona</p>
 
             </div>
-
-            <div class="col-3 col_pf rouge"></div>
-            <div class="col-3 col_pf blue_sea"></div>
-            <div class="col-3 col_pf black"></div>
-            <div class="col-3 col_pf blue_sky"></div>
-            <div class="col-3 col_pf blue_night"></div>
-            <div class="col-3 col_pf beige"></div>
-            
         </div>
 
 
-    </div>   
+    </div>
+    
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-md-6 col-xl-4 rouge"> <img src="./img/cabin.png" class="img-fluid" alt="House"></div>
+            <div class="col-md-6 col-xl-4 blue_sea">blue sea</div>
+            <div class="col-md-6 col-xl-4 black"> black</div>
+            <div class="col-md-6 col-xl-4 blue_sky">blue sky</div>
+            <div class="col-md-6 col-xl-4 blue_night"> blue night</div>
+            <div class="col-md-6 col-xl-4 beige">beige</div>
+        </div>
+    </div>
+    
+   </section>
+
+
+
     
     
     <!-- SEZIONE ABOUT  -->
+    <section class="about-us text-white">
 
-    <div class="container about-us">
-
-        <div class="row justify-content-center">
-
-            <div class="col-10">
-            <h2 class="text-center">About</h2>
-            <p class="text-center">Icona</p>
-            </div>
-        
-
-        
-            <div class="col-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos numquam, sed a necessitatibus suscipit eaque temporibus ipsum autem consequuntur nesciunt nemo earum modi, deleniti quia incidunt dolores similique cumque minus?
-                </p>
-
-            </div>
-
-            <div class="col-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos numquam, sed a necessitatibus suscipit eaque temporibus ipsum autem consequuntur nesciunt nemo earum modi, deleniti quia incidunt dolores similique cumque minus?
-                </p>
-
-            </div>
-        
-
-        
-            <div class="col-10 ">
-                <div class="row justify-content-center">
-                   <div class="col-1 bottom m-5">
-                    Download
-                   </div>
-
-                </div>
-                
-            </div>
-
-        </div>
-        </div>
+    <div class="container mb-4 text-center">
+       <div class="row">
+        <div class="col">ABOUT+ICONA</div>
+       </div>
     </div>
+
+
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse animi iure! Sunt necessitatibus tempora, natus nostrum, expedita optio nam, ab voluptate deserunt commodi mollitia at dolor nisi veniam assumenda.
+            Ullam, perspiciatis ut necessitatibus illum quis numquam perferendis quaerat </div>
+            <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, minus? Rerum commodi explicabo nobis quam suscipit atque. Corporis deleniti ipsum quasi soluta est aspernatur doloremque debitis laborum, nulla nesciunt sapiente.
+            Odit necessitatibus magni eaque. Voluptatem alias repellat tempore deserunt ab</div>
+        </div>
+
+    </div>
+
+    <div class="conteiner text-center">
+        <button class="btn btn-outline-light"><i class="fa-solid fa-download m-1"></i>Download</button>
+    </div>
+
+    </section>
+
+
 
     <!-- SEZIONE CONTATTI -->
-    <div class="container contact-us">
-        <div class="row justify-content-center">
-            <div class="col-10">
-                <h2 class="text-center">About</h2>
+
     
-            </div>
+<section class="mb-4 mt-5">
 
-            <div class="col-10">
-                <p class="text-center">Icona</p>
-    
-            </div>
-      
-          <div class="col-8 col_ct">
-                <p>Name</p>
-            </div>
-
-            <div class="col-8 col_ct">
-                <p>Email Adress</p>
-            </div>
-            <div class="col-8 col_ct">
-                <p>Phone Number</p>
-            </div>
-
-            <div class="col-8 col_ct message">
-                <p>Message</p>
-            </div>
-
-            <div class="col-8 ">
-                <div class="row">
-                    <div class="col-1 bottom_g">
-                        <p>Send</p>
-
-                    </div>
-
-                </div>
-                
-            </div>
-        
-        </div>  
+    <h1 class="text-center display-5 mb-3"> <strong>Contact me</strong> </h1>
+    <div class="col-12 mb-3">
+        <p class="text-center">Icona</p>
     </div>
 
-    <!-- SEZIONE FOOTER -->
+    <div class="row justify-content-center">
 
-    <footer>
-        <div class="container footer">
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-         <div class="row justify-content-center">
-            <div class="col-3 col_ft">
-            <p>LOCATION</p>
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control border-top-0 border-start-0 border-end-0">
+                            <label for="name" class="">Name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control border-top-0 border-start-0 border-end-0">
+                            <label for="email" class="">Email Address</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control border-top-0 border-start-0 border-end-0">
+                            <label for="subject" class="">Phone Number</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12 pt-5">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea border-top-0 border-start-0 border-end-0"></textarea>
+                            <label for="message">Message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="mt-3">
+                <a class="btn btn-primary bt-green" onclick="document.getElementById('contact-form').submit();">Send</a>
             </div>
-            <div class="col-3 col_ft">
-                <p>SOCIAL</p>
-
-            </div>
-            <div class="col-3 col_ft">
-                <p>ABOUT</p>
-
-            </div>
-         
-
-         
-            <div class="col-12 col_ftend fs-6 mt-5">
-                <p>copyright boolean lorem 3457</p>
-
-            </div>
-            
-         </div>
-
+            <div class="status"></div>
         </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+
+
+
+
+</main>
+
+
+
+<!-- SEZIONE FOOTER -->
+
+    <footer class="text-center text-white page-footer">
+
+        <section class="py-5">
+
+        <div class="container">
+
+          <div class="row gy-4">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4"></div>
+          </div>
+
+        </div>  
+        </section>
+
+
+        <section class="py-3 footer-copy">
+            <div class="container">
+            copy
+            </div>
+
+
+        </section>
+
+
 
     </footer>
       
