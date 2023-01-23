@@ -10,7 +10,13 @@ a{
 }
 
 
-.row_star::before {
+.star {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.star::before {
     display: table;
     content: "";
     background-color: white;
@@ -30,6 +36,46 @@ a{
     border-radius: 50px;
 }
 
+.star_dark {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.star_dark::before {
+    display: table;
+    content: "";
+    background-color: black;
+    padding: 2px;
+    width: 100px;
+    height: 2px;
+    border-radius: 50px;
+}
+
+.star_dark::after {
+    display: table;
+    content: "";
+    background-color: black;
+    padding: 2px;
+    width: 100px;
+    height: 2px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /******MENU RULES****/
 
 .main-header{
@@ -37,6 +83,7 @@ a{
     padding: 10px;
     color: white;
 }
+
 
 
 
