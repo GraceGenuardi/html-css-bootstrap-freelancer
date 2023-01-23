@@ -1,5 +1,5 @@
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     text-transform: uppercase;
 }
 
@@ -49,15 +49,14 @@ a{
    
 }
 
-.hero-icon::after{
-    content: "";
-   background-color: white;
-   width: 50px;
-   height: 100px;
-}
 
 
  /*****PORTFOLIO RULES****/
+
+
+ 
+
+
 
 /**ABOUT US RULES****/
 
@@ -67,10 +66,7 @@ a{
     padding: 30px;
 }
 
-.bottom {
-    border: 1px dashed white;
-    text-align: center;
-}
+
 
 
 /*****CONTACT US RULES*****/
@@ -80,20 +76,9 @@ a{
 
 }
 
-/*.col_ct {
-    background-color: #0E38B5;
-}*/
-
-.col_ct::after {
-    background-color: rgb(175, 175, 175);
-    content: "";
-   display: block;
-   width: 900px;
-   height: 1px;
-}
-
-.bottom_g {
-    border: 1px dashed #1ABC9C;
+.bt-green{
+    background-color: #1ABC9C;
+    border: 1px solid #1ABC9C;
 }
 
 /****FOOTER RULES*****/
@@ -105,11 +90,10 @@ a{
     background-color: #2C3E50;
 }
 
-.bt-green{
-    background-color: #1ABC9C;
-    border: 1px solid #1ABC9C;
-}
 
+.link_footer{
+    color: #1ABC9C;
+}
 
 
 
